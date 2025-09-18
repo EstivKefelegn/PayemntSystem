@@ -53,6 +53,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+ALLOWED_HOSTS = ["https://payemntsystem-2.onrender.com/"]
+
 ROOT_URLCONF = 'paymentProject.urls'
 
 TEMPLATES = [
