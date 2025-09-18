@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-t7&550a6ncjok$f+q0w^iyjttxio4+@m^7s2lp%ft2r*qnw-6@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["payemntsystem-2.onrender.com"]
 
 
 # Application definition
@@ -53,7 +53,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ALLOWED_HOSTS = ["https://payemntsystem-2.onrender.com/"]
 
 ROOT_URLCONF = 'paymentProject.urls'
 
