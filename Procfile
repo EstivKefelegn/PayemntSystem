@@ -1,1 +1,1 @@
-web: gunicorn PaymentSystem.wsgi --log-file -
+web: gunicorn paymentProject.wsgi --log-file -
